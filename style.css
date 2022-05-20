@@ -1,0 +1,98 @@
+#listOfCases {
+    padding:30px;
+    height:auto;
+    /*background: #2f4f4e;*/
+    background: repeating-linear-gradient(90deg, #606dbc, #606dbc 10px, #465298 10px, #465298 20px);
+}
+body{
+    width: 500px;
+    margin: auto;
+    background-image: url(https://avatars.mds.yandex.net/i?id=c11dfceb9e8fa6822285b37990a7b4ef_l-5258779-images-thumbs&ref=rim&n=13&w=2000&h=1000); /* Путь к фоновому изображению */
+    background-color: #c7b39b; /* Цвет фона */
+
+}
+#newCases{
+    font-size:16px;
+    padding:5px;
+    border:none;
+    width:300px;
+}
+#submit{
+    background: #d9d9d9;
+    color:#656370;
+    border:none;
+    font-size:16px;
+    padding:10px
+}
+#allCases{
+    width: 100%;
+    height: 300px;
+    overflow: auto;
+}
+.success{
+    width: 50px;
+    height: 100%;
+    font-size:24px;
+    /*color:white;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background: #656370;*/
+    cursor: pointer;
+}
+.deny{
+    width: 50px;
+    height: 100%;
+    font-size:24px;
+    /*color:white;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background: #656370;*/
+    cursor: pointer;
+}
+.list{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    background: repeating-linear-gradient(0deg, #606dbc, #606dbc 10px, #465298 10px, #465298 20px);
+    color:white;
+}
+.label{
+    font-size:24px;
+    /*background: #656370;*/
+    width: 100%;
+    /*color:white;*/
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-weight: 300;
+}
+.list:hover{
+    background: #d9d9d9;
+    color: #8B008B;
+}
+/*.label:hover, a.success:hover, a.deny:hover {
+    background: #d9d9d9;
+    color: #656370;
+}*/
+#wrapper{
+    position: fixed; /* or absolute */
+    top: 30%;
+}
+#links{
+    font-size: 20px;
+    display: flex;
+    background-color: #d9d9d9;
+    padding: 4px;
+    justify-content: center;
+}
+#links a{
+    margin: 0 20px;
+    color: #465298;
+    text-decoration: none;
+}
+#links a:hover{
+    text-decoration: underline;
+    color: #8B008B;
+}
