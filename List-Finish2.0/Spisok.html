@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <title>Список дел</title>
+<body align="center">
+<div id="wrapper">
+    <div id="center">
+        <div id="listOfCases" >
+            <div><h1 style="color: white">Список дел</h1></div><div>
+            <div style="display: inline-flex">
+                <label for="newCases"></label>
+                <input id="newCases" placeholder="Введите новое дело..." type="text"/>
+                <input id="submit" value="Сохранить" type="submit">
+            </div>
+        </div>
+            <div id="links">
+                <a onclick="clear1()" > Сделано</a>
+                <a onclick="clear2()" > Не сделано</a>
+                <a onclick="clear3()" > Все</a>
+            </div>
+        </div>
+
+        <div id="allCases">
+            <script src="script.js"></script>
+        </div>
+    </div>
+</div>
+</body>
+</html>
